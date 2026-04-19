@@ -1,5 +1,5 @@
 import numpy as np
-from digital_surfactant_v2 import SurfGen
+from digi_surf import SurfGen
 
 def test_pipeline():
     model = SurfGen(device="cpu")
