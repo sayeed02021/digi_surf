@@ -41,6 +41,10 @@ class SurfGen(object):
         self.trfm_multi_id = '1gWXNuisfL9KyGQRE6ZOfEwYV5wILmvKU'
         self.prop_folder_id = '1z4VUHu6-yFeeMGNiBYH-nv6h7vpnAkvs'
         self.scscore_id = '1G9ZtPWVZvuKd2HB5uvgZlyY03DF78_tz'
+
+        model_folder_path = str(BASE_DIR / os.path.join('models', 'model_paths'))
+        
+        os.makedirs(model_folder_path, exist_ok=True)
         
     
     def load_models(self, mode):
