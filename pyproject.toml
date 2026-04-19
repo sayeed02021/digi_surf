@@ -23,4 +23,5 @@ dependencies = [
 package-dir = {""="src"}
 
 [tool.setuptools.packages.find]
+"*" = ["*.yaml", "*.pt", "**/*.yaml", "**/*.pt", "*.csv", "**/*.csv"]
 where = ["src"]
