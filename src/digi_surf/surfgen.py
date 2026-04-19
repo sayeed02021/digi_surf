@@ -14,7 +14,6 @@ from .models.diff_generator import DiffGen
 from .models.trfm_model import TrfmGenerator
 from .models.predict_model import PredictionModel
 from .models.scscore import SCScorer
-from digi_surf.models import scscore
 
 def download_gdrive_file(url, output_path):
     gdown.download(
