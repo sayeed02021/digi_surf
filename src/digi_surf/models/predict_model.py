@@ -5,14 +5,10 @@ import pickle
 import numpy as np
 import os
 import torch
-import torch_geometric
-import pytorch_lightning as pl
 import glob
 import yaml
 import argparse
 from torch_geometric.loader import DataLoader
-from collections import defaultdict
-import pandas as pd
 from pathlib import Path
 
 from .prop_pred.dataset import SMILESDataset

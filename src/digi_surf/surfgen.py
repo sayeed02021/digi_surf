@@ -1,7 +1,5 @@
 import os
 import torch
-from natsort import natsorted
-from collections import defaultdict
 import rdkit.Chem as Chem
 from rdkit.Contrib.SA_Score import sascorer
 from pathlib import Path
@@ -44,8 +42,6 @@ class SurfGen(object):
         self.prop_folder_id = '1z4VUHu6-yFeeMGNiBYH-nv6h7vpnAkvs'
         self.scscore_id = '1G9ZtPWVZvuKd2HB5uvgZlyY03DF78_tz'
         
-
-
     
     def load_models(self, mode):
         

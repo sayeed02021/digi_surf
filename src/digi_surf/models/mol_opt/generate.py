@@ -1,5 +1,3 @@
-import pandas as pd
-from collections import defaultdict
 import torch
 from tqdm import tqdm
 import numpy as np

@@ -1,12 +1,10 @@
-import math, sys, random, os
+import math
 import numpy as np
-import time
 import rdkit.Chem as Chem
 import rdkit.Chem.AllChem as AllChem
 import json
 import gzip
 
-import os
 
 score_scale = 5.0
 min_separation = 0.25

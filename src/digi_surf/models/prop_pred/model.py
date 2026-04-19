@@ -1,10 +1,5 @@
-import torch
 import torch.nn as nn
 import torch_geometric.nn as nng
-import torch.nn.functional as F
-import torch.optim as optim
-import pytorch_lightning as pl
-import numpy as np
 
 class RegressionHead(nn.Module):
     def __init__(self, n_prop, dim):

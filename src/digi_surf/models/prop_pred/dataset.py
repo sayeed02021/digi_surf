@@ -4,8 +4,6 @@ import pandas as pd
 from torch_geometric.data import Data, Dataset
 from rdkit import Chem
 from sklearn.preprocessing import RobustScaler
-import os
-import shutil
 from tqdm import tqdm
 
 def one_of_k_encoding(x, allowable_set):

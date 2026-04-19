@@ -1,17 +1,14 @@
-import yaml
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
-import argparse
 import os
-import glob
 from pathlib import Path
 
 from .mol_opt.utils import make_model
 from .mol_opt.build_vocab import Tokenizer
 from .mol_opt.generate import generate_sequences
 from .mol_opt.dataset import OptDataset
-from ..utils import load_yaml, load_pickle
+from ..utils import load_yaml
 
 BASE_DIR = Path(__file__).resolve().parent
 class TrfmGenerator(object):

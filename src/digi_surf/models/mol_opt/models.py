@@ -1,4 +1,3 @@
-import numpy as np
 import torch
 from torch.nn import TransformerDecoderLayer, TransformerEncoderLayer, TransformerEncoder, TransformerDecoder
 import torch.nn as nn
