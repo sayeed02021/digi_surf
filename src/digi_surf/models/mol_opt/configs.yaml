@@ -1,0 +1,29 @@
+# data stuff
+vocab_path: data/vocab.pkl
+train_path: data/train_multi.csv
+test_path: data/test_multi.csv
+save_folder: multi
+create_val: True
+props: ['pCMC', 'AW_ST_CMC', 'Area_min']
+
+# model stuff
+d_model: 256
+nhead: 8
+d_ff: 256
+num_layers: 6
+max_seq_len: 120
+
+
+# hyperparam and misc
+device: cuda:1
+n_epochs: 500
+lr: 0.0001
+batch_size: 128
+seed: 42
+generate: True
+train: False
+n_gen: 10
+
+
+
+

@@ -1,0 +1,20 @@
+batch_size: 128
+create_val: true
+d_ff: 256
+d_model: 256
+device: cuda
+generate: true
+lr: 0.0001
+max_seq_len: 120
+n_epochs: 500
+n_gen: 10
+nhead: 8
+num_layers: 6
+props:
+- pCMC
+save_folder: single
+seed: 42
+test_path: data/test_single.csv
+train: false
+train_path: data/train_single.csv
+vocab_path: data/vocab.pkl

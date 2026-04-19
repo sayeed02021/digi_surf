@@ -1,0 +1,21 @@
+SEED: 42
+batch_size: 64
+dropout: 0.1
+edge_dim: 11
+hidden_channels: 64
+in_channels: 39
+lr: 0.0007585775750291836
+n_folds: 10
+num_epochs: 500
+num_layers: 2
+num_timesteps: 2
+out_channels: 128
+patience: 50
+props:
+- pCMC
+- AW_ST_CMC
+- Area_min
+save_path: multi
+scaling: true
+stop_early: true
+tuning: true

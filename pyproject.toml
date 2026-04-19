@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "digital-surfactant"
+version = "0.1.0"
+description = "Molecular generation for surfactant discovery"
+authors = [{name="Your Name"}]
+
+dependencies = [
+    "torch==2.4",
+    "rdkit",
+    "pandas",
+    "numpy",
+    "natsort",
+    "torch-molecule",
+    "matplotlib",
+    "gdown"
+]
+
+[tool.setuptools]
+package-dir = {""="src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
