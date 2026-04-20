@@ -1,5 +1,5 @@
 # Digi-Surf: A Python package for generating non-ionic surfactants
-
+---
 ## Package Installation Steps
 1. Clone the repository
 ```
