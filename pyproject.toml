@@ -20,8 +20,21 @@ dependencies = [
 ]
 
 [tool.setuptools]
-package-dir = {""="src"}
+package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
-"*" = ["*.yaml", "*.pt", "**/*.yaml", "**/*.pt", "*.csv", "**/*.csv"]
 where = ["src"]
+
+[tool.setuptools.package-data]
+"digi_surf" = [
+    "models/prop_pred/config.yaml",
+    "models/prop_pred/robust_scaler.pkl",
+    "models/mol_opt/configs.yaml",
+    "models/mol_opt/multi/configs.yaml",
+    "models/mol_opt/multi/train_scaler_values.pt",
+    "models/mol_opt/single/configs.yaml",
+    "models/mol_opt/single/train_scaler_values.pt",
+    "models/mol_opt/data/*.csv",
+    "models/mol_opt/data/*.pkl",
+    "models/surfpro_train.csv",
+]
