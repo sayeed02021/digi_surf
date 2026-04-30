@@ -22,5 +22,5 @@ pip install .
 
 ## Example
 
-After installation is complete, to use the package refer to this example [code](https://drive.google.com/file/d/1IKiaT_uen88o3VPSzokh599kG4rBIG9X/view?usp=sharing) \\
+After installation is complete, to use the package refer to this example [code](https://drive.google.com/file/d/1IKiaT_uen88o3VPSzokh599kG4rBIG9X/view?usp=sharing) \
 Make sure to have jupyter notebooks installed in order to run the `.ipynb` file.
